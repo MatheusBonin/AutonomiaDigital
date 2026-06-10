@@ -1,4 +1,4 @@
-# Autonomia Digital:
+# Autonomia Digital: concientização contra golpes virtuais
 
 Projeto de Extensão voltado para a concientização acerca fraudes digitais através de uma aplicação web educativa.
 

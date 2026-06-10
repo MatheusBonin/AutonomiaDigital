@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio de Segurança</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="hero-container">
+        <div class="overlay"></div>
+
+        <div class="content quiz-box" id="quiz-box">
+            <h2 id="pergunta-texto">Carregando...</h2>
+
+            <div id="botoes-area" class="botoes-area">
+                <button id="btn-a" onclick="responder('A')" class="btn-opcao">A</button>
+                <button id="btn-b" onclick="responder('B')" class="btn-opcao">B</button>
+            </div>
+
+            <div id="feedback" style="display:none; padding: 15px; margin-top: 15px; border-radius: 10px; font-weight: bold; font-size: 18px;"></div>
+
+            <button id="btn-proximo" onclick="proximaPergunta()" class="btn-iniciar" style="display:none; margin-top: 20px;">Próxima Pergunta</button>
+        </div>
+    </main>
+    <script type="module" src="cadastro.js"></script>
+    <script type="module" src="perguntas.js"></script>
+</body>
+</html>
